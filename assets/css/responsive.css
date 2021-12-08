@@ -1,0 +1,192 @@
+
+@media (max-width: 576px) {
+  .forTransformation {
+    transform: none;
+  }
+  .tandb input {
+    width: auto;
+    transform: translateX(0px);
+}
+.tandb button {
+  margin-top: 20px;
+  transform: translateX(0px);
+}
+.searchText{
+  padding-left: 0px;
+}
+.searchText1{
+  padding-left: 60px;
+  padding-right: 12px;
+}
+.hero h1{
+  text-align: center;
+}
+.hero h2{
+  text-align: center;
+}
+
+.design .text{
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 15px;
+}
+nav {
+  background-color: rgba(3, 112, 111, .01);
+}
+.newBtnSpace{
+  margin-left: 0px;
+}
+.faq .text{
+  text-align: center;
+}
+.faq p{
+  padding-bottom: 10px;
+}
+.aboutUs .description{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.increase-text{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutUsText{
+  text-align: center;
+}
+.tandb h2{
+  font-size: 20px;
+}
+.searchText, .searchText1 {
+  padding-left: 24px !important;
+}
+.footer{
+  display: none;
+}
+.mobileFooter{
+  display: block;
+  text-align: center;
+
+}
+.hero #newBtn {
+  margin-left: 15px !important;
+}
+.hero .buttons{
+ justify-content: center;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .meetingLink h2{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .design h2{
+    font-size: 25px;
+  }
+  .design h3{
+    font-size: 15px;
+    text-align: center;
+  }
+  .tandb h2{
+    font-size: 30px;
+  }
+  .increase-text h2 {
+    font-size: 25px;
+}
+  .navbar .container{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+   
+  }
+  .searchText {
+    padding-left: 60px;
+}
+nav {
+  background-color: rgba(3, 112, 111, .01);
+}
+.hero h2 {
+  font-size: 18px;
+}
+
+
+.hero button {
+  font-size: 11px;
+}
+
+.first{
+  padding-left: 0px;
+}
+.meetingLink
+{
+  margin-bottom: 24px;
+}
+.options, .design-cards{
+  margin-bottom: 48px;
+}
+
+.hero h1 {
+  font-size: 28px;
+}
+.navbar-collapse{
+  flex-basis: 100%;
+}
+.nav-link{
+  background-color: rgba(229, 240, 240, .9)
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.55);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.pstn{
+  position: absolute;
+  width: 100%;
+}
+.hero{
+  padding-top: 100px;
+  
+}
+
+.searchText1{
+  padding-right: 0px;
+}
+.increase button {
+  font-weight: 600;
+  background-color: #f9b331;
+  width: 156px;
+  font-size: 11px;
+  padding: 13px !important;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 425px) {
+.tandb .buttons{
+  display: flex;
+  flex-direction: column;
+}
+}
+@media (max-width: 992px) {
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .searchText {
+    padding-left: 60px;
+}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+ 
+}

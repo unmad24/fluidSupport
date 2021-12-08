@@ -1,0 +1,502 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/Helvetica.ttf), url(/fonts/Helvetica-Bold.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: Helvetica;
+}
+.increase {
+  background-color: #03706f;
+}
+.navbar-toggler-icon {
+  width: 1em;
+}
+nav {
+  background-color: rgba(3, 112, 111, 0.1);
+}
+.hero {
+  background-color: rgba(3, 112, 111, 0.1);
+}
+.hero h1 {
+  font-weight: 400;
+  color: #046a69;
+  font-size: 45px;
+}
+.hero h2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.hero h1 span {
+  font-weight: 800;
+}
+.hero .material-icons {
+  font-size: 35px;
+  color: #f9b331;
+}
+.hero button {
+  font-weight: 600;
+  background-color: #f9b331;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.hero #newBtn {
+  border: 2px solid #f9b331;
+}
+.hero #newBtn:hover {
+  color: #f9b331;
+  transition: 0.4s;
+}
+.design h2 {
+  font-size: 40px;
+  color: #046a69;
+}
+.design h2 span {
+  font-weight: 800;
+}
+.design h3 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.design-sec h6 {
+  font-weight: 700;
+  color: #046a69;
+}
+.design-sec p {
+  font-size: 15px;
+  color: rgba(57, 60, 65, 1);
+}
+.design-sec .card {
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.design-sec .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.increase button {
+  font-weight: 600;
+  background-color: #f9b331;
+  font-size: 14px;
+}
+.get h2 {
+  color: #046a69;
+}
+.get span {
+  font-weight: 700;
+}
+.chooseAndprice {
+  background: rgba(3, 112, 111, 0.1);
+}
+.fstdemo1 h2 {
+  font-weight: 700;
+}
+.demo h2 {
+  font-weight: 700;
+}
+.demo img {
+  margin-top: 50px;
+}
+.fstP {
+  background-color: rgba(232, 68, 107, 0.2);
+  font-size: 12px;
+  width: fit-content;
+}
+.scndP {
+  background-color: rgba(84, 25, 94, 0.2);
+  font-size: 12px;
+  width: fit-content;
+}
+.compareThe h2 {
+  color: #046a69;
+  font-weight: 700;
+}
+
+.integrate h2 {
+  color: #046a69;
+}
+.integrate span {
+  font-weight: 700;
+}
+.toggle-btn {
+  width: 70px;
+  height: 35px;
+  background: #03706f;
+  border-radius: 30px;
+  padding: 5px;
+  transition: all 300ms ease-in-out;
+}
+.toggle-btn > .inner-circle {
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+.toggle-btn.active > .inner-circle {
+  margin-left: 35px;
+}
+
+.integrateCard1 p {
+  color: #45484d;
+  font-size: 14px;
+}
+.integrateCard2 p {
+  color: #45484d;
+  font-size: 14px;
+}
+.integrateCard1 .card {
+  height: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.integrateCard2 .card {
+  height: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.7s ease-in-out;
+}
+.integrateCard1 h2,
+.integrateCard2 h2 {
+  font-weight: 700;
+}
+.checkAll .card {
+  height: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.integrateCard1 .card:hover {
+  background-color: #03706f;
+  margin-top: -5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.integrateCard2 .card:hover {
+  background-color: #03706f;
+  margin-top: -5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.integrateCard1 .card:hover h2 {
+  color: white;
+}
+.integrateCard2 .card:hover h2 {
+  color: white;
+}
+.integrateCard1 .card:hover p {
+  color: white;
+}
+.integrateCard2 .card:hover p {
+  color: white;
+}
+.checkAll h2 {
+  font-weight: 500;
+  color: #03706f;
+}
+.checkAll button {
+  background-color: #f9b331;
+  font-size: 12px;
+  font-weight: 700;
+}
+.choose h2 {
+  color: #046a69;
+}
+.choose h4 {
+  color: #046a69;
+  font-weight: 700;
+}
+.choose span {
+  font-weight: 700;
+  color: #03706f;
+}
+
+.faq .text h2 {
+  color: #03706f;
+}
+.faq .text h2 span {
+  font-weight: 700;
+}
+
+.aboutUs h2,
+span {
+  color: #03706f;
+}
+.aboutUs span {
+  font-weight: 700;
+}
+
+.slider p {
+  font-weight: 700;
+}
+.item .card {
+  background-color: #e6f1f1;
+  border-radius: 15px;
+}
+.slider img {
+  background: #ff9595;
+  width: 61.88px;
+  height: 61.88px;
+}
+.item p {
+  font-weight: 700;
+}
+.slider .item img {
+  background: #ff9595;
+  width: 61.88px;
+  height: 61.88px;
+}
+.slider .item p {
+  font-weight: 700;
+}
+.tandb h2 {
+  color: white;
+  font-size: 40px;
+}
+.tandb input {
+  width: 280px;
+  border-radius: 20px;
+  border: 1px solid #f9b331;
+  transform: translate(34px,1px);
+  outline: none;
+  
+}
+.tandb button {
+  font-size: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  transform: translate(-65px,0px);
+  height: 36px;
+  background-color: #f9b331;
+  padding: 11px;
+}
+.forTableData {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.getNotified {
+  background-color: #03706f;
+}
+.getNotified span {
+  font-weight: 700;
+  color: #ffffff;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1; /* Firefox */
+}
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.footer h4 {
+  font-size: 14px;
+}
+.footer span {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+.tableSec .td {
+  border: 1px solid #ddd;
+}
+.footer li {
+  margin-bottom: 10px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer a:hover {
+  color: #03706f;
+  transition: 0.5s;
+}
+.footer .first {
+  padding-right: 80px;
+}
+/* .footer .social img{margin-left: -29px;} */
+.tableSec td {
+  text-align: center;
+  padding: 15px;
+  width: 278px;
+  border: 1px solid #ddd;
+}
+.classForimg {
+  background-color: rgba(3, 112, 111, 0.05);
+}
+.searchText {
+  padding-left: 0px;
+}
+
+.searchText1 {
+  padding-right: 15px;
+  padding-left: 0px;
+}
+
+.forBackground {
+  background-color: #cde2e2;
+}
+.forBackground1 {
+  background-color: rgba(232, 68, 107, 0.2);
+}
+.forBackground2 {
+  background-color: rgba(251, 205, 121, 0.2);
+}
+.forBackground3 {
+  background-color: rgba(84, 25, 94, 0.2);
+}
+
+/* .forTransformation {
+  transform: translate(85px, 40px);
+}
+.forTransformation1 {
+  transform: translate(-390px, 30px);
+} */
+.firstOne {
+  background-color: rgba(3, 112, 111, 0.2);
+  font-size: 12px;
+  width: fit-content;
+}
+.badge-one {
+  background-color: rgba(3, 112, 111, 0.2);
+  color: black;
+  font-weight: 400;
+}
+.badge-two {
+  background-color: rgba(232, 68, 107, 0.2);
+  color: black;
+  font-weight: 400;
+}
+.badge-three {
+  background-color: rgba(251, 205, 121, 0.2);
+  color: black;
+  font-weight: 400;
+}
+.badge-four {
+  background-color: rgba(84, 25, 94, 0.2);
+  color: black;
+  font-weight: 400;
+}
+.pricing .material-icons {
+  color: #03706f;
+}
+.pricing .card {
+  border-radius: 14px;
+  transition: 0.3s ease-in-out;
+}
+.pricing h5 {
+  font-weight: 600;
+}
+
+.pricing .card button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #03706f;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+}
+.pricing .card:hover button {
+  background-color: #f9b331;
+}
+
+.pricing .card:hover {
+  color: white;
+  background-color: #03706f;
+  transform: translateY(-25px);
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.pricing .card h4 {
+  font-size: 14px;
+  color: #393c41;
+  border-radius: 14px;
+}
+.pricing .card:hover h4 {
+  color: rgb(255, 255, 255);
+}
+
+.pricing .card:hover span {
+  color: white;
+}
+.pricing .card h6 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.pricing .card:hover h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.pricing .card:hover .per {
+  color: rgba(255, 255, 255, 0.6);
+}
+.pricing .card p {
+  font-size: 18px;
+  color: black;
+}
+.pricing .card:hover p {
+  color: white;
+}
+
+.pricing .card h3 {
+  font-size: 14px;
+  color: rgba(57, 60, 65, 0.5);
+}
+.pricing .card:hover h3 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing .custom .material-icons {
+  color: rgba(57, 60, 65, 0.5);
+}
+.pricing .card:hover .custom .material-icons {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.accordion-button::after {
+  background-size: 18px;
+  background-image: url("/assets/images/expand_more_black_24dp.svg");
+  border: 1px solid #03706f;
+  border-radius: 10px;
+  outline: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/assets/images/expand_more_black_24dp.svg");
+  transform: rotate(-180deg);
+  fill: #03706f;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #03706f;
+
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tableSec {
+  overflow-x: auto;
+}
+.increase-text h2 {
+  font-size: 40px;
+}
+
+.mobileFooter {
+  display: none;
+}
+.mobileFooter h4 {
+  font-size: 14px;
+}
